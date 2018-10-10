@@ -1,4 +1,4 @@
-# Frame Mining
+Frame Mining
 ==================
 
 ## Introdução
