@@ -17,3 +17,19 @@ Reconhecimento da imagem e realização do cálculo dos descritóres da carcaça
 * Circularidade
 * Solidicidade
 * Área do Feixe Convexo
+
+## Configuração do Ambiente
+
+As <a href="https://drive.google.com/drive/folders/1iM5FQlErA3q8zNZzDR4ff9VRLMSc8ww6"> imagens utilizadas /a> na aplicação foram providas pela equipe de pesquisa de zootecnica da UFRA Campus Belém.
+Atualmente (10 de outubro de 2018) estão disponibilizadas somente para a equipe de desenvolvimento da aplicação.
+
+### Requisitos 
+
+Distribuição Linux ou Windows com as seguintes ferramentas instaladas: 
+
+* Matlab
+* Microsoft Excel 
+* Unzip 
+* LaTeX
+
+### 
