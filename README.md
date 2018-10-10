@@ -1,17 +1,17 @@
-Frame Mining
+Processamento de Imagens Inteligentes - Frame Mining
 ==================
 
 ## Introdução
-Projeto desenvolvido com a parceira da equipe de zootecnia da UFRA Campus Belém. 
+Projeto desenvolvido pela FACOMP campus castanhal em conjunto com a equipe de zootecnia da UFRA Campus Belém e a Faculdade de Medicina Veterinária do campus castanhal. 
 
 ## Objetivo
-Desenvolvimento de uma aplicação para análises de fotos da carcaças de animais, das classes de ovinos e caprinos, utilizando técnicas de processamento de imagens.
+Desenvolvimento de uma aplicação para análise de imagens de carcaças oriundas de ovinos e caprinos, utilizando técnicas de processamento de imagens.
 
 #### Segmentação
 Reconhecimento da imagem e segmentação estratégica (de acordo com o conhecimento dos especialistas) da mesma em 3 ou 6 partes para as fotos frontais e verticais dos animais em questão.
 
 #### Descritores
-Reconhecimento da imagem e realização do cálculo dos descritóres da carcaça em questão. Os descritores mensurados foram:
+Reconhecimento de padrões de qualidade da carne na imagem e realização do cálculo dos descritóres da carcaça em questão. Os descritores utilizados para a análise foram:
 * Perímetro;
 * Área da Carcaça;
 * Circularidade
@@ -45,12 +45,16 @@ Redigir sobre os resultados
 ## Equipe de Desenvolvimento
  Coordenação
 * Prof. Dr. Yomara Pires
+* Prof. Dr. João Cláudio Chamma
+* Prof. Dr. Igor Ruiz Gomes
 
  Desenvolvimento
 * Francisco Eguinaldo Junior
 * Daniel Victor
 * Kalef Levy
 * Jônio Alec
+* Keven Carrilho
+* Livia Andrade
 
 # Referências
 
