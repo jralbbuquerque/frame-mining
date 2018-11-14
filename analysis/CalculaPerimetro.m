@@ -2,14 +2,14 @@ function perimetro=CalculaPerimetro(imagemBinaria)
 
 s = regionprops(imagemBinaria,'Perimeter');
 
-%Transforma struct em célula
+%Transforma struct em cï¿½lula
 sx = struct2cell(s);
 
-%Transforma célula em escalar
+%Transforma cï¿½lula em escalar
 perimetroEmPixels = cell2mat(sx);
 
-%Proporção centímetro por Pixel
-centPorPixel = 1/15.3;
+%Proporï¿½ï¿½o centï¿½metro por Pixel
+centPorPixel = 1/25.4;
 
-%Calcula o perímetro
+%Calcula o perï¿½metro
 perimetro = (perimetroEmPixels(1,1)*centPorPixel)/2;

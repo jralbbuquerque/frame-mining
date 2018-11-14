@@ -1,14 +1,14 @@
 function area=CalculaArea(imagemBinaria)
 
-%Área da imagem binária em Pixels
+%ï¿½rea da imagem binï¿½ria em Pixels
 areaEmPixels = bwarea(imagemBinaria);
 
-%Proporção centímetro por Pixel
-centPorPixel = 1/15.3;
+%Proporï¿½ï¿½o centï¿½metro por Pixel
+centPorPixel = 1/25.4;
 
-%Centímetro quadrado por pixel
+%Centï¿½metro quadrado por pixel
 centQuadPorPixel = centPorPixel^2;
 
-%Área em centímetros quadrados
+%ï¿½rea em centï¿½metros quadrados
 area = centQuadPorPixel * areaEmPixels;
 

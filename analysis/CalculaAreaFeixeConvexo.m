@@ -10,10 +10,10 @@ areaFeixeConvEmPixels = regionprops(imagemConvexa, 'ConvexArea');
 areaFeixeConvEmPixels = struct2cell(areaFeixeConvEmPixels);
 areaFeixeConvEmPixels = cell2mat(areaFeixeConvEmPixels);
 
-%Proporção centímetro por Pixel
-centPorPixel = 1/15.3;
+%Proporï¿½ï¿½o centï¿½metro por Pixel
+centPorPixel = 1/25.4;
 
-%Centímetro quadrado por pixel
+%Centï¿½metro quadrado por pixel
 centQuadPorPixel = centPorPixel^2;
 
 areaFeixeConvEmCent = centQuadPorPixel * areaFeixeConvEmPixels(1,1);

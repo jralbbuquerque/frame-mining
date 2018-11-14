@@ -5,12 +5,14 @@ clc
 
 % %%%%% DORSAL %%%%%
 % 
-% imagemDorsalOriginalRGB=imread( 'N25-19-8-PD.jpg');
-% imagemLateralOriginalRGB=imread( 'N25-19-8-PL.jpg');
+% imagemDorsalOriginalRGB=imread( 'N25-19-8-PD.JPG');
+% imagemLateralOriginalRGB=imread( 'N25-19-8-PL.JPG');
 % imagemDorsalOriginalRGB=imread( 'N25-23-8-PD.jpg');
 % imagemLateralOriginalRGB=imread( 'N25-23-8-PL.jpg');
-imagemDorsalOriginalRGB=imread( 'N25-10-4-PD.jpg');
-imagemLateralOriginalRGB=imread( 'N25-10-4-PL.jpg');
+% imagemDorsalOriginalRGB=imread('N25-10-4-PD.JPG');
+% imagemLateralOriginalRGB=imread('N25-10-4-PL.JPG');
+imagemDorsalOriginalRGB=imread('N26-03.2-4-PD.JPG');
+imagemLateralOriginalRGB=imread('N26-03.2-4-PL.JPG');
 
 
 [imagemDorsalBinaria,imagemDorsalRGBSemGancho]=BinarizaAreaDeInteresse(imagemDorsalOriginalRGB,"Dorsal");
@@ -42,7 +44,7 @@ imagemLateralOriginalRGB=imread( 'N25-10-4-PL.jpg');
 
 figure(1)
 clf
-title('Carcaça Dorsal Segmentada','fontsize',15)
+title('Carcaï¿½a Dorsal Segmentada','fontsize',15)
 [pos1,pos2,pos3,pos4]=posicaoImagens3(imagemDorsalSuperior,imagemDorsalDoMeio,imagemDorsalInferior,imagemDorsalBinaria);
 
 subplot('Position',pos1);imshow(imagemDorsalBinaria)
@@ -126,7 +128,7 @@ annotation('textbox', dim7, 'String', infoDescritores,'FitBoxToText','on', 'Colo
 %%% LATERAL 3 PARTES
 figure(3)
 clf
-%title('Carcaça Dorsal Segmentada','fontsize',15)
+%title('Carcaï¿½a Dorsal Segmentada','fontsize',15)
 [pos1,pos2,pos3,pos4]=posicaoImagens3(imagemLateralSuperior,imagemLateralDoMeio,imagemLateralInferior,imagemLateralBinaria);
 
 subplot('Position',pos1);imshow(imagemLateralBinaria)

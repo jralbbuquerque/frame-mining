@@ -1,9 +1,10 @@
+
 function circularidade=CalculaCircularidade(imagemBinaria)
 
-%Calcula área em centímetro
+%Calcula ï¿½rea em centï¿½metro
 area=CalculaArea(imagemBinaria);
 
-%Calcula perímetro em centímetro
+%Calcula perï¿½metro em centï¿½metro
 perimetro=CalculaPerimetro(imagemBinaria);
 
 %Calcula circularidade
